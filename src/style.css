@@ -1,0 +1,544 @@
+@import url(/src/normalize.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.container {
+    padding: 0 20px;
+    max-width: 1770px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page__logo-link {
+    margin-right: auto;
+}
+
+.page__logo-img {
+
+}
+
+.page__head {
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.main-link {
+    padding: 25px 37px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.4581px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background-color: #FF9900;;
+}
+.main-link:hover {
+    background: rgba(255, 153, 0, 0.7);
+}
+
+.main-link:focus {
+    background: rgba(255, 153, 0, 0.7);
+}
+
+.main-link:active {
+    background: #E1670E;
+}
+
+.description-style {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.main__head {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #333333;
+}
+/* HEADER */
+
+.header-content {
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.5);
+    height: 100px; 
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header__navigation {
+    display: flex;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-item {
+    margin-right: 85px;    
+}
+
+.nav-item__link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.nav-item__link:hover {
+    border-bottom: 2px solid #FF9900;
+}
+
+.nav-item__link:focus {
+    border: 2px solid #FF9900;
+}
+
+.nav-item__link:active {
+    color: #E1670E;
+    border: 2px solid #E1670E;
+}
+
+.header__navigation-btn {
+    width: 24px;
+    height: 24px;
+
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.search-btn {
+
+}
+
+.search-btn:hover {
+    fill: #FF9900;
+    stroke: #FF9900;
+}
+
+.search-btn:focus {
+    
+}
+
+.search-btn:active {
+    fill: #FF9900;
+    stroke: #FF9900;
+}
+/* SECTION HERO */
+
+.main__hero {
+    margin-bottom: 100px;
+    min-height: 620px;
+}
+
+.hero__content {
+    padding: 100px 854px 100px 80px;
+}
+
+.hero-container {
+    background-size: cover;
+    background-image: url(/image/section/hero.jpg);
+    background-repeat: no-repeat;
+}
+
+.hero__head {
+    margin-bottom: 24px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 85px;
+    color: #FFFFFF;
+}
+
+.hero__description {
+    margin-bottom: 90px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.hero__link {
+
+}
+
+.hero__slider {
+    text-align: center;
+}
+
+.hero__slider-radio {
+    background: rgba(255, 255, 255, 0.4);;
+}
+
+/* SECTION ABOUT */
+
+.main__about {
+    margin-bottom: 100px;
+}
+
+.about-head {
+    margin-bottom: 20px;
+}
+
+.about__description {
+    max-width: 1235px;
+    margin-bottom: 50px;
+}
+
+.about__content {
+    display: flex;
+}
+
+.about__left {
+    max-width: 868px;
+    height: 622px;
+    margin-right: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/image/section/about.jpg);
+}
+
+.about__left-footer {
+    display: flex;
+    position: relative;
+    top: 426px;
+    width: 100%;
+    height: 196px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.left__description {
+    padding: 50px 139px 50px 50px;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.left__link {
+    display: block;
+    margin-right: 68px;
+    margin-top: 68px;
+    margin-bottom: 68px;
+    padding: 20px 38px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    
+    border: 3px solid #FF9900;
+}
+
+.left__link:hover {
+    background: #FF9900;
+}
+
+.left__link:focus {
+    background: #FF9900;
+}
+
+.left__link:active {
+    border: 3px solid #E1670E;
+    background: #E1670E;
+}
+
+.about__rigth {
+
+}
+
+.about__rigth-content {
+    display: flex;
+    width: 870px;
+    height: 293px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #CACACA;
+}
+
+.about__rigth-content:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.rigth__head {
+    margin-bottom: 8px;
+}
+
+.rigth__description {
+    
+}
+
+.rigth-desc {
+    width: 460px;
+}
+
+.about__rigth-image {
+    width: 190px;
+    height: 165px;
+}
+
+/* SECTION HOW_WORK */
+
+.main__how-work {
+    position: relative;
+    height: 646px;
+    margin-bottom: 100px;
+}
+
+.how-work__content {
+
+}
+
+.how-wokr__head {
+    margin-bottom: 50px;
+}
+
+.how-work__slider {
+    margin-bottom: 45px;
+}
+
+.how-work__radio {
+
+}
+
+.how-work__main {
+    height: 646px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.how-work__description {
+    width: 758px;
+}
+
+.how-work__image {
+    display: inline-block;
+    width: 870px;
+    height: 460px;
+}
+
+.how-work__link-desc {
+    position: absolute;
+    top: 573px;
+    padding: 21px 38px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.how-work__link-contract {
+    position: absolute;
+    top: 573px;
+    margin-left: 210px;
+    
+    padding: 20px 38px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    border: 1px solid #333333;
+}
+#how1{
+
+}
+#how2{
+    display: none;   
+}
+#how3{
+    display: none; 
+}
+#how4{
+    display: none; 
+}
+
+/* SECTION question */
+
+.main__questions {
+    margin-bottom: 100px;
+}
+
+.question-head {
+    margin-bottom: 32px;
+}
+
+.question-content {
+
+}
+
+.questions__list {
+
+}
+
+.qusetion__item {
+    padding: 39px 0;
+    border-top: 1px solid #CACACA;
+
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-image: url(/image/section/+х.svg);
+
+    cursor: pointer;
+}
+.qusetion__item:last-child {
+    border-bottom: 1px solid #CACACA;
+}
+
+.question__item-description {
+    
+}
+
+.qusetion__description {
+    display: none;
+}
+
+/* FOOTER */
+
+.footer-content {
+    background-color: #222222;
+    height: 594px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer__main {
+    
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-logo-img {
+
+}
+
+.footer__navigation {
+    margin-bottom: 90px;
+}
+
+.footer__nav-list {
+
+}
+
+.footer__nav-item {
+
+}
+
+.footer__nav-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #CACACA;
+}
+
+.footer__social-list {
+    display: flex;
+}
+
+.footer__social-item {
+    
+}
+
+.footer__social-link {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.footer__social-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.link-facebook {
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-image: url(/image/social/facebook.svg);
+}
+
+.link-vk { 
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-image: url(/image/social/vk.svg);
+}
+
+.link-instagram {
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-image: url(/image/social/instagram.svg);
+}
+
+.footer__form {
+    width: 570px;
+    height: 494px;
+}
+
+.footer__head {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #CACACA;
+}
+
+.footer__input-name {
+
+}
+
+.footer__input-email {
+
+}
+
+.footer__input-text {
+
+}
+
+.footer__form-btn {
+
+}
+
+.footer__consent {
+
+}
+
+.footer__description {
+    width: 363px;
+    height: 320px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+}
